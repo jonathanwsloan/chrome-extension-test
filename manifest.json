@@ -1,6 +1,6 @@
 {
   "name": "Social Media Like Hider",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Hide likes and profiles on social media",
   "content_scripts": [{
     "matches": [

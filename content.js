@@ -61,8 +61,6 @@ function updateSources() {
     localStorage.setItem('twitter_sources_visibility', $('#sources').is(":checked"));
 }
 
-//ad 10 parents
-// r-111h2gw r-4qtqp9 r-yyyyoo r-1q142lx r-ip8ujx r-7o8qx1 r-dnmrzs r-bnwqim r-1plcrui r-lrvibr
 function updateAds() {
     if ($('#ads').is(":checked")) {
         $('.r-111h2gw.r-4qtqp9.r-yyyyoo.r-1q142lx.r-ip8ujx.r-7o8qx1.r-dnmrzs.r-bnwqim.r-1plcrui.r-lrvibr').parents().eq(9).hide()
